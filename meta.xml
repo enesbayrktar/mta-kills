@@ -1,0 +1,16 @@
+<meta>
+  <info author="enesbayrktar" to="Multi Theft Auto Community" version="1.0.0" name="Kills" type="script" />
+  <min_mta_version server="1.5.6-9.18728" client="1.5.8-9.20698.0" />
+
+  <settings>
+    <setting name="*killGoals" value="[{
+        '10000': 'Moderator',
+      }
+    ]" />
+    <!-- Beni Oku! 'Öldürme sayısı': 'verilecekAclGrupİsmi' bu örneğe göre yukarıda 10000 tane kişi öldüren oyuncu Moderatör yetkisine sahip olacak. -->
+  </settings>
+
+  <script type="shared" src="shared.lua" />
+  <script type="server" src="server.lua" />
+  <script type="client" src="client.lua" />
+</meta>
